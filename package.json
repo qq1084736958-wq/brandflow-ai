@@ -1,0 +1,47 @@
+{
+  "name": "brandflow-ai",
+  "version": "0.1.0",
+  "description": "品牌内容生产与风险审核 Agent：品牌理解、内容生成、自动初审、自动修正与人工终审的可追溯工作流应用",
+  "keywords": [
+    "nextjs",
+    "coze",
+    "ai-agent",
+    "workflow",
+    "content-review",
+    "brand",
+    "typescript",
+    "tailwindcss"
+  ],
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1 --port 3010",
+    "build": "next build",
+    "start": "next start --hostname 127.0.0.1 --port 3010",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "eval:brandflow": "node evals/run-evals.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.2.11",
+    "postcss": "8.5.21",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  },
+  "overrides": {
+    "postcss": "$postcss",
+    "sharp": "0.35.3"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules
+.next
+out
+.env*
+!.env.example
+.brandflow-data/
+evals/results/
+npm-debug.log*
+*.tsbuildinfo
+*.log
+.DS_Store
+Thumbs.db
